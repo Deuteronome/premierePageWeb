@@ -1,0 +1,49 @@
+<!--
+    Structure de base d'une page en html (en ppuyant sur ! + entrée)
+-->
+
+<!DOCTYPE html>
+<html lang="en">
+    <head> <!--A l'intérieur de la balise head : tout ce qui ne s'affiche pas dans la fenre principale - principalement des réglages-->
+        <meta charset="UTF-8"><!-- Réglage des caractères utilisés dans la page - utf-8 est le jeu de caractère internationale le plus courant, vous n'en n'utiliserez propablemebnt pas d'autres-->
+        <meta name="viewport" content="width=device-width, initial-scale=1.0"><!-- Prise en compte des dimensions de l'écran - important pour le responsive design-->
+        <title>Document</title><!-- Titre de la page qui apparait dans l'onglet du navigateur-->
+    </head>
+
+    <body><!-- Ce qui s'affiche à l'ecran se trouve dans body-->
+
+        <!-- Les balises vues en séance 1-->
+        
+        <p>Paragraphe (texte normal) - saut de ligne au début et à la fin du pararagraphe</p>
+
+        <!-- Les titres - de 1 à 6 - le 1 est le plus important, le 6 le moins important-->
+        <h1>Titre 1</h1>
+        <h2>Titre 2</h2>
+        <h3>Titre 3</h3>
+        <h4>Titre 4</h4>
+        <h5>Titre 5</h5>
+        <h6>Titre 6</h6>
+
+        <!-- Les listes : ol -> liste numérotée, ul -> liste à puce-->
+
+        <ol><!--Début de liste-->
+            <li>Liste 1</li><!-- Balise li pour chauque ligne dans une liste-->
+            <li>Liste 2</li>
+            <li>Liste 3</li>
+        </ol><!-- Fin de liste -->
+
+        <ul><!--Début de liste-->
+            <li>Liste 1</li><!-- Balise li pour chauque ligne dans une liste-->
+            <li>Liste 2</li>
+            <li>Liste 3</li>
+        </ul><!-- Fin de liste -->
+
+        <!-- Image - cette balise ne se ferme pas-->
+
+        <img src="Fichier.image" alt="Texte en cas d'erreur ou pour les malvoyants">
+
+        <!-- Lien hypertexte; attribut target : _self -> s'ouvre dans l'onglet actuel; _blank -> s'ouvre dans un nouvel onglet-->
+        <a href="http://adresse.de.la.page.a.ouvrir" target="_self">Texte qui s'affiche à l'écran et sur lequel on pourra cliquer</a>
+
+    </body>
+</html>
